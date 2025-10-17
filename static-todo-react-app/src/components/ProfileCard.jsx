@@ -3,9 +3,9 @@ import React from "react";
 const ProfileCard = ({name, age, bio})=>{
     return(
         <div>
-    <h4>Name: {name}</h4>
-    <h4>Age: {age}</h4>
-    <h4>Bio: {bio}</h4>
+    <p>Name: {name}</p>
+    <p>Age: {age}</p>
+    <p>Bio: {bio}</p>
     </div>
     );
 };
