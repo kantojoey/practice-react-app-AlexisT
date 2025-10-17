@@ -6,7 +6,6 @@ function App() {
     <>
       <div>
         <ProfileCard name="alexis" age="26" bio="j chillin" />
-        test
       </div>
     </>
   )
