@@ -12,8 +12,13 @@ function App() {
     },
     {
       name: "Sabrina Carpenter",
-      age: 24,
+      age: 26,
       bio: "She's working late because she's also a singer"
+    },
+    {
+      name: "Alexis Tinoco",
+      age: 26,
+      bio: "He just works here"
     }
   ]
   return (
