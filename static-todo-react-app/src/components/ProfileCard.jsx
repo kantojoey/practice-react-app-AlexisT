@@ -1,12 +1,12 @@
 import React from "react";
 
-const ProfileCard = ({name, age, bio})=>{
-    return(
-        <div>
-    <p>Name: {name}</p>
-    <p>Age: {age}</p>
-    <p>Bio: {bio}</p>
-    </div>
+const ProfileCard = ({ name, age, bio }) => {
+    return (
+        <div className = "profile-card">
+            <h3>Name: {name}</h3>
+            <p>Age: {age}</p>
+            <p>Bio: {bio}</p>
+        </div>
     );
 };
 
